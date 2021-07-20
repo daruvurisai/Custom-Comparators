@@ -12,11 +12,9 @@ public class App {
         Employee e4 = new Employee(4, "naveen", 85000);
         Employee e5 = new Employee(5, "harish1", 89000);
         List<Employee> employees = new ArrayList<Employee>();
-        employees.add(e5);
-        employees.add(e2);
-        employees.add(e1);
-        employees.add(e3);
-        employees.add(e4);
+        //USing addall Method for adding all the objects into
+        //addall(collectionname, o1,o2,o3);
+        Collections.addAll(employees,e1,e2,e3,e4,e5);
         //Unsorted list
         System.out.println(employees);
 
